@@ -1,0 +1,82 @@
+/* experience section styling */
+.experience{
+    color:#eee;
+    background: #111;
+    font-family: 'Poppins', sans-serif;
+    counter-reset: journal-counter conference-counter;
+}
+.experience .title::before{
+    background: #eee;
+}
+.experience .title::after{
+    background: #111;
+    content: "where do i work";
+}
+.experience .experience-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.experience .experience-content .column{
+    box-sizing: border-box;
+    padding: 20px;
+    width: calc(50% - 30px);
+}
+.experience .experience-content .column.left {
+    width: 100%;
+}
+.experience .experience-content .column.left .row {
+    counter-increment: journal-counter;
+}
+.experience .experience-content .column.right {
+    width: 100%;
+}
+.experience .experience-content .column.right .row {
+    counter-increment: conference-counter;
+}
+.experience .experience-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.experience .experience-content .left p{
+    text-align: justify;
+}
+.experience .experience-content .left .icons{
+    margin: 10px 0;
+}
+.experience .experience-content .row{
+    width: 100%;
+}
+.experience .experience-content .row .info{
+    margin-left: 0;
+}
+.experience .experience-content .row i{
+    font-size: 25px;
+    color: rebeccapurple;
+}
+.experience .experience-content .row .number::before {
+    content: counter(journal-counter) ". ";
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ccc;
+}
+.experience .experience-content .row.right .number::before {
+    content: counter(conference-counter) ". ";
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ccc;
+}
+.experience .experience-content .info {
+    margin-left: 10px;
+}
+.experience .experience-content .info .head{
+    font-weight: 500;
+    margin-left: 0;
+}
+.experience .experience-content .info .sub-title{
+    margin-left: 0;
+    color: #ccc;
+    margin-bottom: 10px;
+}

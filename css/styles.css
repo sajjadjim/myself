@@ -1,0 +1,21 @@
+/* Import other CSS files */
+@import url('sections/about.css');
+@import url('sections/contact.css');
+@import url('sections/education.css');
+@import url('sections/experience.css');
+@import url('sections/expertise.css');
+@import url('sections/home.css');
+@import url('sections/reference.css');
+@import url('sections/skills.css');
+@import url('sections/publication.css');
+
+@import url('utils/common.css');
+@import url('utils/menu.css');
+@import url('utils/navbar.css');
+@import url('utils/section.css');
+@import url('utils/footer.css');
+@import url('utils/modal.css');
+
+/* External libraries */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css');

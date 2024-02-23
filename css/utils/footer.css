@@ -1,0 +1,15 @@
+/* footer section styling */
+footer{
+    background: rebeccapurple;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+footer span a{
+    color: #ddd;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
